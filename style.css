@@ -1,0 +1,509 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 80px; /* navbar height */
+}
+#project{
+    scroll-margin-top: -40px;
+
+}
+.universitylogo{
+    height:100px;
+    width:100px;  
+}
+.university-name::first-letter{
+    color:green;
+    font-size: xx-large
+}
+.readmore{
+    color:white !important
+}
+                                                        /* HOME */
+.home{
+    position: relative;
+    width: 90%;
+    margin:auto;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255,255,255,0)), 
+                url('./Assets/homepic.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.home-text {
+    color: #000;
+    max-width: 500px;
+    position: relative;
+}
+
+.home-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.home-text p {
+    font-size: 1.5rem;
+    margin: 10px 0 20px 0;
+}
+
+.home-text .btn {
+    font-size: 1.2rem;
+}
+
+svg {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 50px auto;
+}
+
+textPath {
+  fill: black;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.rotating {
+  transform-origin: 50% 50%;
+  animation: rotate 5s linear infinite;
+    position: absolute;
+    bottom:100px;
+    left:250px
+}
+
+                                                        /* aboutus */
+
+.box{
+    background-color: white;
+    width:330px !important;
+    height: 250px !important;
+    box-shadow: 5px 5px 10px gray;
+
+}
+.add-details {
+    position: absolute;
+    top:-120px;
+
+    height:30% !important;
+}
+.about-us{
+    position: relative;
+    color:#004D40
+}
+.box h2{
+    color: green !important; ;
+}
+.box p:last-child{
+    color:green
+}
+.carousel .box {
+    width: 100% !important;   
+    max-width: 400px;          
+    margin: auto;              
+}
+
+@media (max-width:992px) {
+.box {
+            width:100% !important
+        }
+ /* .about-us */
+ .about-us-main {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-top: 20px;
+    }
+    .about-us {
+    position: relative;
+    padding-bottom: 800px; 
+}
+    /* .quick-links */
+    .quick-links {
+        background: url('./Assets/quick.png') no-repeat center center;
+        background-size: cover;
+    }
+
+    .quick-links-right {
+        display: none; 
+    }
+    .parantleft{
+    height: 90% !important;
+    width:90% !important;
+}
+            /* benefits */
+.benefits-right{
+     position: absolute;
+     left: 10%;
+     width:80% !important
+  
+}
+.application{
+    background: none !important;
+}
+
+}
+@media (min-width:992px) {
+     .about-us-main {
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        margin-top: 20px;
+        
+    }
+}
+
+
+.rocket{
+font-size: 1.2rem;
+background-color: aquamarine;
+padding:10px;
+border-radius: 50%;
+position: absolute;
+left:-15px;
+top:-6px
+}
+
+.btnicon{
+    display: inline;
+    position: relative;
+}
+.about-us-pics{
+    height:400px;
+    width:80% ;
+    position:relative;
+    object-fit: cover;  
+}
+.about-us-pics img{
+    object-fit: cover;
+}
+.about-1{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.about-2{
+    position:absolute;
+    height:50%;
+    width:55%;
+    right:0px;
+    top:-10px
+}
+.about-2 img{
+    height:100%;
+    width:100%
+}
+.about-3{
+    position:absolute;
+    height: 55%;
+    width:35%;
+    top:45%;
+    right:0px;
+    background-color:teal;
+    border:10px solid white;
+    padding-top:10px
+}
+.about-2 img{
+    height:100%;
+    width:100%;
+    border:10px solid white;
+    object-fit: cover;
+}
+
+.about-3down p{
+    font-size: 0.7rem;
+    padding:8px
+}
+.about-us-main{
+    position: absolute;  
+}
+
+
+
+
+/* -----------------------------------------------------------aboutus2-------------------------------------------------------------------------- */
+
+.foraboutus2img{
+    height:80%;
+    width:80%
+}
+
+.foraboutus2img img{
+    height:100%;
+    width:100%
+}
+
+.aboutbox{
+    /* border:1px solid black; */
+    height:350px;
+    position:relative
+}
+.aboutbox-1{
+    height:90%;
+    width:90%;
+    border:4px solid white
+}
+.aboutus2{
+    border:1px solid blue
+}
+.graduate{
+    position: absolute;
+    top:-10px;
+    font-size:3.5rem
+}
+.aboutus2{
+    background: linear-gradient(to right, rgba(0, 128, 128, 0.8), rgba(0, 128, 128, 0.8)), 
+                url('./Assets/background-uni.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.aboutus2 {
+    color:white;
+}
+                                                        /* quick-links */
+.quick-links{
+    
+   position: relative;
+}
+.parantleft{
+    height: 70%;
+    width:70%;
+    background-color:oldlace;
+}
+.parantright{
+    height:85%;
+    width:50%;
+    border: 1px solid black;
+}
+.parantright img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.parantright{
+     position:absolute;
+     left:500px;
+     top:50px;
+     z-index: -1;
+}
+
+.quick-links{
+    color:green
+}
+                                                        /* video */
+
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+}
+
+.video video {
+    max-width: 90%;
+    height: auto;
+    border: 2px solid #008080;
+    border-radius: 10px;
+}
+
+                                                    /* knowledgeplus */
+
+.knowledge{
+    height:70vh;
+  
+}
+.knowledgeup{
+    height:60%;
+  
+}
+.knowledgedown{
+    height: 40% !important;
+
+}
+.knowledgeupleft{
+    height:300px;
+ 
+
+}
+.knowledgeupleft img{
+    height: 90%;
+    width:90%;
+    object-fit: cover;
+}
+
+.knowledgeupright{
+    /* width:50%; */
+    background-color: #008080;
+    color:white
+}
+.knowledgeinput{
+     background-color: darkslategrey  !important;
+     border: none !important ;
+}
+.knowledgeinput::placeholder{
+    color: white !important;
+    text-align: center;
+}
+.knowledgedownn{
+
+    height: 200px;
+}
+
+                                                                            /* benefits */
+.benefits {
+  min-height: 100vh;
+  position: relative;
+}
+
+.benefits-left {
+  position: relative;
+  z-index: 1;
+}
+
+.benefits-right {
+  background-color: #faf6ed; /* light cream */
+  z-index: 2;
+  border-radius: 4px;
+  position: absolute;
+  right: 250px;
+}
+                                                                                /* form */
+.application {
+  min-height: 80vh;
+  width:90%;
+  margin: auto;
+
+  background: linear-gradient(to right, rgba(0, 128, 128, 0), rgba(0, 128, 128, 0)), 
+                url('./Assets/form.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.form-box {
+  background-color: #004d40; /* dark green */
+}
+
+.custom-input {
+  background-color: transparent !important;
+  border: 1px solid #ccc !important;
+  color: white !important;
+}
+
+.custom-input::placeholder {
+  color: white;
+}
+                                                                                /* education */
+ .section-title {
+  color: #006633; /* green */
+}
+
+.date-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #006633;
+  color: white;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+                                                        /* footer  */   
+ .footer {
+      background-color: #004D40; /* Dark green background */
+      color: white;
+      padding: 60px 20px 20px;
+      position: relative;
+    }
+
+    .footer-logo img {
+      width: 60px;
+    }
+
+    .footer h5 {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .footer .social-icons {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .footer .social-icons i {
+      font-size: 22px;
+      margin: 0 12px;
+      color: white;
+    }
+
+    .footer hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 40px auto 20px;
+      width: 90%;
+      
+    }
+
+    .newsletter input[type="email"] {
+      padding: 10px;
+      border: none;
+      border-radius: 3px;
+      width: 100%;
+      max-width: 250px;
+    }
+
+    .scroll-top {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      background-color: white;
+      color: black;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      cursor: pointer;
+    }
+
+    .skyline {
+      background: url('https://i.imgur.com/utZjCrk.png') repeat-x;
+      background-size: cover;
+      height: 80px;
+      margin: -60px 0 0 0;
+    }
+   
+  
+
+
+
+
