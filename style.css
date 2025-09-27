@@ -22,7 +22,8 @@ section {
     font-size: xx-large
 }
 .readmore{
-    color:white !important
+    color:white !important;
+
 }
                                                         /* HOME */
 .home{
@@ -142,6 +143,12 @@ textPath {
     .parantleft{
     height: 90% !important;
     width:90% !important;
+}
+.knowledgedownn{
+    height:auto !important
+}
+.knowledgedownnr{
+    text-align: center;
 }
             /* benefits */
 .benefits-right{
@@ -339,6 +346,7 @@ top:-6px
  
 
 }
+
 .knowledgeupleft img{
     height: 90%;
     width:90%;
